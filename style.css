@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+
+    font-family: 'Gentium Book Plus', serif;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.text-gray{
+    color: rgb(65, 64, 64);
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 11px 17px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 3px;
+}
+.m-auto{
+    display: block;
+    margin: auto;
+}
+
+/* hero sectin start */
+#hero-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/donation8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.hero-container{
+    width: 50%;
+}
+#hero-section .hero-container h1{
+    font-size: 55px;
+}
+#hero-section .hero-container p{
+    padding-bottom: 40px;
+}
+/* hero sectin end */
+
+/* donate section start  */
+
+#donate-secton{
+    height: 60vh;
+    width: 100%;
+}
+.donate-container{
+    width: 55%;
+}
+#donate-secton .donate-container h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+
+}
+#donate-secton .donate-container p{
+    padding-bottom: 20px;
+
+}
+
+.donate-button{
+    height: 74px;
+    width: 86px;
+    font-size: 20px; 
+    background-color: #FAFAFA;
+    color: rgb(56, 55, 55);
+    border: none;
+    margin-bottom: 30px;
+}
+#marked-btn{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+#donate-secton .donate-container input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(78, 76, 76);
+    color: rgb(92, 90, 90);
+    margin-bottom: 30px;
+    font-size: 17px;
+    width: 35%;
+    text-align: center;
+
+}
+/* donate section end  */
+
+/* donate plan section start  */
+#donatePlan-section{
+    height: 90vh;
+    width: 100%;
+}
+.dP-container{
+    width: 60%;
+}
+.dP-container h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.dP-container p{
+    padding-bottom: 20px;
+}
+.child{
+    height: 250px;
+    width: 240px;
+    padding: 35px;
+}
+.child img{
+    height: 52px;
+    width: 52px;
+    margin-bottom: 20px;
+}
+.box-1{
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-right: 20px;
+}
+.box-2{
+    background: rgba(255, 89, 89, 0.1);
+    margin-right: 20px;
+}
+.box-3{
+     background: #FFF4D6;
+    
+}
+
+
+/* footer start  */
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+}
+footer h1{
+    color: red;
+}
+footer {
+    color: gray;
+}
